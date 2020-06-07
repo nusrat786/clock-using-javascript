@@ -1,0 +1,27 @@
+body{
+	background-color: #b5982d;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.clock {
+	flex: 0 0 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #080706;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+	border: 3px solid grey;
+	padding: 40px;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 3px 3px 10px 10px black;
+   
+
+
+}
